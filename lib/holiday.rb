@@ -78,5 +78,5 @@ def all_holidays_with_bbq(holiday_hash)
       name if supplies.include?("BBQ") #return holiday name if the supply value includes BBQ
     end
   end
-  bbq.flatten.compact #return bbq array with .flatten method and .compact method to get rid of .nil values
+  bbq.flatten.compact #return bbq array with .flatten method to combine multiple array into one and .compact method to get rid of .nil values
 end
